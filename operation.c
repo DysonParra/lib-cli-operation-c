@@ -69,7 +69,7 @@ BOOL APIENTRY DllMain(HINSTANCE instance, DWORD reason, LPVOID reserved) {
 #endif
 
 /**
- * FIXME: Definición de {@code copyArray}.
+ * FIXME: Description of {@code copyArray}.
  * Copia el contenido de un array parámetro (input) a otro (output) desde start hasta end.
  */
 LANGUAGE DLLIMPORT CALLING void copyArray(char* input, char* output, int start, int end) {
@@ -87,7 +87,7 @@ LANGUAGE DLLIMPORT CALLING void copyArray(char* input, char* output, int start, 
 }
 
 /**
- * FIXME: Definición de {@code printFile}.
+ * FIXME: Description of {@code printFile}.
  * Imprime el contenido de un archivo (parámetro array) en consola.
  */
 LANGUAGE DLLIMPORT CALLING void printFile(char* array) {
@@ -105,7 +105,7 @@ LANGUAGE DLLIMPORT CALLING void printFile(char* array) {
 }
 
 /**
- * FIXME: Definición de {@code printArray}.
+ * FIXME: Description of {@code printArray}.
  * Imprime un array sin los caracteres de escape.
  */
 LANGUAGE DLLIMPORT CALLING void printArray(char* array) {
@@ -136,7 +136,7 @@ LANGUAGE DLLIMPORT CALLING void printArray(char* array) {
 }
 
 /**
- * FIXME: Definición de {@code sprintArray}.
+ * FIXME: Description of {@code sprintArray}.
  * Copia un array de entrada en otro sin los caracteres de escape.
  */
 LANGUAGE DLLIMPORT CALLING void sprintArray(char* output, char* input) {
@@ -167,7 +167,7 @@ LANGUAGE DLLIMPORT CALLING void sprintArray(char* output, char* input) {
 }
 
 /**
- * FIXME: Definición de {@code isANumber}.
+ * FIXME: Description of {@code isANumber}.
  * Verifica si un caracter es un número, un signo, un punto o un indicador exponencial. Devuelve 1 caso afirmativo o caso contrario 0.
  */
 LANGUAGE DLLIMPORT CALLING int isANumber(char c) {
@@ -178,7 +178,7 @@ LANGUAGE DLLIMPORT CALLING int isANumber(char c) {
 }
 
 /**
- * FIXME: Definición de {@code validateNumber}.
+ * FIXME: Description of {@code validateNumber}.
  * Valida si un array tiene un número válido.
  */
 LANGUAGE DLLIMPORT CALLING int validateNumber(char* array, int size) {
@@ -245,7 +245,7 @@ LANGUAGE DLLIMPORT CALLING int validateNumber(char* array, int size) {
 }
 
 /**
- * FIXME: Definición de {@code getNumber}.
+ * FIXME: Description of {@code getNumber}.
  * Obtiene los caracteres numéricos de un array (en float).
  */
 LANGUAGE DLLIMPORT CALLING double getNumber(char* array) {
@@ -269,7 +269,7 @@ LANGUAGE DLLIMPORT CALLING double getNumber(char* array) {
 }
 
 /**
- * FIXME: Definición de {@code isALetter}.
+ * FIXME: Description of {@code isALetter}.
  * Evalúa si un caracter es una letra. Devuelve 1 caso afirmativo o caso contrario 0.
  */
 LANGUAGE DLLIMPORT CALLING int isALetter(char c) {
@@ -280,7 +280,7 @@ LANGUAGE DLLIMPORT CALLING int isALetter(char c) {
 }
 
 /**
- * FIXME: Definición de {@code iqualChar}.
+ * FIXME: Description of {@code iqualChar}.
  * Evalúa si dos caracteres son iguales (tomando igual mayúsculas y minúsculas para el caso de las letras).
  */
 LANGUAGE DLLIMPORT CALLING int iqualChar(char c1, char c2) {
@@ -300,7 +300,7 @@ LANGUAGE DLLIMPORT CALLING int iqualChar(char c1, char c2) {
 }
 
 /**
- * FIXME: Definición de {@code countCharacters}.
+ * FIXME: Description of {@code countCharacters}.
  * Cuenta la cantidad de veces que aparece character en el array input.
  */
 LANGUAGE DLLIMPORT CALLING int countCharacters(char* input, char character) {
@@ -314,7 +314,7 @@ LANGUAGE DLLIMPORT CALLING int countCharacters(char* input, char character) {
 }
 
 /**
- * FIXME: Definición de {@code compareArrays}.
+ * FIXME: Description of {@code compareArrays}.
  * Compara dos arrays difirenciando mayúsculas y minúsculas, quentity indica la cantidad de caracteres.
  */
 LANGUAGE DLLIMPORT CALLING int compareArrays(char* array1, char* array2, int quantity) {
@@ -335,7 +335,7 @@ LANGUAGE DLLIMPORT CALLING int compareArrays(char* array1, char* array2, int qua
 }
 
 /**
- * FIXME: Definición de {@code findWord}.
+ * FIXME: Description of {@code findWord}.
  * Encuentra una palabra en un array empazando a buscar desde la posición start del array hasta la posición end.
  */
 LANGUAGE DLLIMPORT CALLING int findWord(char* array, char* word, int start, int end) {
@@ -370,7 +370,7 @@ LANGUAGE DLLIMPORT CALLING int findWord(char* array, char* word, int start, int 
 }
 
 /**
- * FIXME: Definición de {@code findFirstDifferentChar}.
+ * FIXME: Description of {@code findFirstDifferentChar}.
  * Encuentra en un array la posición del primer elemento diferente a los indicados como parámetro.
  */
 LANGUAGE DLLIMPORT CALLING int findFirstDifferentChar(char* array, int nargs, ...) {
@@ -406,7 +406,7 @@ LANGUAGE DLLIMPORT CALLING int findFirstDifferentChar(char* array, int nargs, ..
 }
 
 /**
- * FIXME: Definición de {@code findLastDifferentChar}.
+ * FIXME: Description of {@code findLastDifferentChar}.
  * Encuentra en un array la posición del último elemento diferente a los indicados como parámetro.
  */
 LANGUAGE DLLIMPORT CALLING int findLastDifferentChar(char* array, int nargs, ...) {
@@ -442,7 +442,7 @@ LANGUAGE DLLIMPORT CALLING int findLastDifferentChar(char* array, int nargs, ...
 }
 
 /**
- * FIXME: Definición de {@code getTextBetween}.
+ * FIXME: Description of {@code getTextBetween}.
  * Obtiene un texto encerrado entre comillas ("****") en input, number indica el número de palabra a encontrar ("1" "2" "3" ...).
  */
 LANGUAGE DLLIMPORT CALLING int getTextBetween(char* output, char* input, char* open, char* close, int number) {
@@ -478,7 +478,7 @@ LANGUAGE DLLIMPORT CALLING int getTextBetween(char* output, char* input, char* o
 }
 
 /**
- * FIXME: Definición de {@code splitArray}.
+ * FIXME: Description of {@code splitArray}.
  * Divide un array en n-array cada que encuentre la cadena indicada por "word".
  */
 LANGUAGE DLLIMPORT CALLING char** splitArray(char* array, char* word) {
@@ -508,7 +508,7 @@ LANGUAGE DLLIMPORT CALLING char** splitArray(char* array, char* word) {
 }
 
 /**
- * FIXME: Definición de {@code replaceWord}.
+ * FIXME: Description of {@code replaceWord}.
  * Reemplaza la palabra indicada en el array "word" por la indicada en el array "replacedWord" en el array input.
  */
 LANGUAGE DLLIMPORT CALLING void replaceWord(char* input, char* output, char* word, char* replacedWord) {
@@ -544,7 +544,7 @@ LANGUAGE DLLIMPORT CALLING void replaceWord(char* input, char* output, char* wor
 }
 
 /**
- * FIXME: Definición de {@code invertText}.
+ * FIXME: Description of {@code invertText}.
  * Invierte los caracteres de un texto que hayan entre la posición start y end.
  */
 LANGUAGE DLLIMPORT CALLING void invertText(char* input, int start, int end) {
@@ -560,7 +560,7 @@ LANGUAGE DLLIMPORT CALLING void invertText(char* input, int start, int end) {
 }
 
 /**
- * FIXME: Definición de {@code replaceInvalidCharacters}.
+ * FIXME: Description of {@code replaceInvalidCharacters}.
  * Borra los caracteres no permitidos en nombres de archivos con el array indicado por replacedCharacter.
  */
 LANGUAGE DLLIMPORT CALLING void replaceInvalidCharacters(char* fileName, char* replacedCharacter) {
@@ -580,7 +580,7 @@ LANGUAGE DLLIMPORT CALLING void replaceInvalidCharacters(char* fileName, char* r
 }
 
 /**
- * FIXME: Definición de {@code replaceUTF8CharToAscii}.
+ * FIXME: Description of {@code replaceUTF8CharToAscii}.
  * Reemplaza caracteres UTF-8 con caracteres de ascii extendido en un array input para que este pueda verse bien en cmd.
  */
 LANGUAGE DLLIMPORT CALLING void replaceUTF8CharToAscii(char* input) {
@@ -627,7 +627,7 @@ LANGUAGE DLLIMPORT CALLING void replaceUTF8CharToAscii(char* input) {
 }
 
 /**
- * FIXME: Definición de {@code convertHtmCharToAscii}.
+ * FIXME: Description of {@code convertHtmCharToAscii}.
  * Obtiene el equivalente ascii de un caracter html.
  */
 LANGUAGE DLLIMPORT CALLING int convertHtmCharToAscii(char* htmlChar) {
@@ -666,7 +666,7 @@ LANGUAGE DLLIMPORT CALLING int convertHtmCharToAscii(char* htmlChar) {
 }
 
 /**
- * FIXME: Definición de {@code replaceHtmlCharacters}.
+ * FIXME: Description of {@code replaceHtmlCharacters}.
  * Cambia caracteres de un array encodeados en html por caracteres ascii.
  */
 LANGUAGE DLLIMPORT CALLING void replaceHtmlCharacters(char* input) {

@@ -383,7 +383,7 @@ LANGUAGE DLLIMPORT CALLING int findFirstDifferentChar(char* array, int nargs, ..
 
     va_end(ap);                                                     // Finaliza la lista de parámetros.
 
-    // for (int i =0; i< nargs; i++)                                // Recorre el array con los parámetros.
+    // for (int i = 0; i < nargs; i++)                              // Recorre el array con los parámetros.
     //   printf("Argumento %d = %d -%c-\n", i, args[i], args[i]);   // Muestra el parámetro actual.
 
     // printf("-%s-\n", array);                                     // Muestra el array parámetro.
@@ -419,7 +419,7 @@ LANGUAGE DLLIMPORT CALLING int findLastDifferentChar(char* array, int nargs, ...
 
     va_end(ap); // Finaliza la lista de parámetros.
 
-    // for (int i =0; i< nargs; i++)                                // Recorre el array con los parámetros.
+    // for (int i = 0; i < nargs; i++)                              // Recorre el array con los parámetros.
     //   printf("Argumento %d = %d -%c-\n", i, args[i], args[i]);   // Muestra el parámetro actual.
 
     // printf("-%s-\n", array);                                     // Muestra el array parámetro.
@@ -642,7 +642,7 @@ LANGUAGE DLLIMPORT CALLING int convertHtmCharToAscii(char* htmlChar) {
         replaceUTF8CharToAscii(htmlCharacters);                                 // Reemplaza los caracteres no ascii de htmlCharacters con caracteres ascii.
 
         /*-
-        for (int i =0; i< (int)(strlen(htmlCharacters)); i++)
+        for (int i = 0; i < (int)(strlen(htmlCharacters)); i++)
             printf("%03d %c\n", i+1, htmlCharacters[i]);
         */
 

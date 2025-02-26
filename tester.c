@@ -114,7 +114,7 @@ int main(int argc, char** argv) {
     flags = splitArray(array2, (char*)" -");
 
     printf("\n%p\n", flags);
-    for (int i =0; i<=1000; i++)
+    for (int i = 0; i <= 1000; i++)
         if (flags[i] != NULL) {
             printf("%p '%s'\n", flags[i], flags [i]);
             if (i) {
